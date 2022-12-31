@@ -11,7 +11,7 @@ const coolDown = document.querySelector(".yearCooldown")
 const date = new Date()
 const newYear = new Date("Jan 1,2023 00:00:00").getTime()
 let musicPaused = false
-alert("Chỉ có nút play, next vs previous dùng được thôi nhá :V, bao h rảnh làm thêm. Bên cạnh đó app sẽ k có bất cứ quảng cáo nào, chỉ có nhạc thôi. Enjoy your music and HAPPY NEW YEAR :>>")
+alert("Chỉ có nút play, next vs previous dùng được thôi nhá :V, bao h rảnh làm thêm. Enjoy your music and HAPPY NEW YEAR :>> (-- From TheL with love ---)")
 function getRandomInt(min, max){
     return Math.floor(Math.random()*(max-min)) +min;
 }
