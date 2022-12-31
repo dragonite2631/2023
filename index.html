@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    <title>Nolegs music</title>
+</head>
+<body>
+    <header>
+        <h1 class="title" ><p class="appTitle">Music player</p><i class="material-icons music-icon">headphones</i></h1>
+    </head>
+    <div class="yearCooldown"></div>
+    <div class="music-container">
+        <div class="top-bar">
+            <i class="material-icons">expand_more</i>
+            <span>Now Playing</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+        <div class="img-container">
+            <img src="Img-list/pic3.jpg" alt="">
+        </div>
+        <div class="song-details">
+            <span class="name"></span>
+            <br>
+            <span class="artist"></span>
+        </div>
+
+        <div class="progress-area">
+               <div class="progress-bar">
+                    <audio src=""></audio>
+               </div> 
+               <div class="song-timer">
+                    <span class="current"></span>
+                    <span class="duration"></span>
+               </div>
+               <audio class= "main-audio"></audio>
+        </div>
+
+        <div class="music-btn">
+            <div class="repeat">
+                <i class="material-icons">repeat</i>
+            </div>
+            <div class="prev">
+                <i class="material-icons">skip_previous</i>
+            </div>
+            <div class="play-pause">
+                <i class="material-icons">play_arrow</i>
+            </div>
+            <div class="next">
+                <i class="material-icons">skip_next</i>
+            </div>
+            <div class="more-music">
+                <i class="material-icons">queue_music</i>
+            </div>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="material-icons">queue_music</i>
+                    <span>Music list</span>
+                </div>
+                <div class="close">
+                    <i class="material-icons">close</i>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <div class="row">
+                        <span>Fireflies</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">3:40</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Fireflies</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">3:40</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Fireflies</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">3:40</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Fireflies</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">3:40</span>
+                </li>
+            </ul>
+        </div>
+        <script src="tetMusiclist.js"></script>
+        <script src="index.js"></script>
+    </div>
+   
+</body>
+</html>
