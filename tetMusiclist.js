@@ -6,7 +6,7 @@ let musicList = [
     },
     {
         name:"Chuyện cũ bỏ qua",
-        artist:" - Bích -",
+        artist:" - Bích Phương -",
         src:"Music-list/Chuyencuboqua.mp3"
     },
     {
